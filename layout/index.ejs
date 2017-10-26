@@ -1,5 +1,14 @@
 <div class="home">
   <div class="info">
+  <style>
+	html {
+		border-radius: 50px;
+	    background-image: url("/images/latest.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: auto;
+  }
+</style>
     <a href="/" class="logo"><%= config.title %></a>
     <div class="subtitle"><%= config.subtitle || '' %></div>
     <div class="sns">
@@ -7,6 +16,6 @@
           <a href="<%- url_for(theme.sns[item]) %>"><%= item %></a>
       <% } %>
     </div>
-    <%- partial('_partial/footer') %>
+    <%#- partial('_partial/footer') %>
   </div>
 </div>

@@ -1,8 +1,9 @@
 # Favicon
-favicon: /favicon.ico
+#favicon: /favicon.ico
+favicon: /images/puffin.png
 
 # SEO
-keywords: 生活,博客,前端,游戏
+keywords: Mathematica,C++,C,Linux,Qt,WebRTC
 
 # Site title separator
 separator: '-'
@@ -13,11 +14,13 @@ rss: /atom.xml
 # SNS config
 sns:
   Blog: /archives
-  GitHub: https://github.com/chunqiuyiyu
-  V2EX: https://www.v2ex.com/member/chunqiuyiyu
+  Public: /public
+  About: /about
 
 # Nav menu
 menu:
-  Home: /
-  Archives: /archives
+  Blog: /archives
+  Public: /folders
+  Links: /links
   About: /about
+

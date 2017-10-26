@@ -13,8 +13,10 @@ html, body, .container {
 }
 
 a {
-  color: #000;
-  text-decoration: none;
+.link {color:#00F;text-decoration:none;}	
+.visited {color:#0F0;text-decoration:none;}
+.hover {color:#00A;text-decoration:underline;}	
+#.active {color:#00F;text-decoration:underline;}
 }
 
 .home {
@@ -28,12 +30,12 @@ a {
     text-align: center;
 
     .logo {
-      font-size: 2.5em;
+      font-size: 3em;
       font-weight: bold;
     }
 
     .subtitle {
-      font-size: 14px;
+      font-size: 16px;
       color: gray;
     }
 
@@ -42,11 +44,11 @@ a {
 
       a {
         width: 50px;
-        color: #999;
+        color: gray;
         display: inline-block;
 
         &:hover {
-          color: #000;
+          color: #00F;
         }
       }
     }
